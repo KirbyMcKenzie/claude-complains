@@ -19,8 +19,7 @@
     "frequency": {
       "type": "string",
       "title": "How often should Claude complain?",
-      "description": "always (100%) / often (66%) / sometimes (33%) / rarely (10%)",
-      "enum": ["always", "often", "sometimes", "rarely"],
+      "description": "One of: always (100%), often (66%), sometimes (33%), rarely (10%). Invalid values fall back to often.",
       "default": "often"
     },
     "explicit": {
