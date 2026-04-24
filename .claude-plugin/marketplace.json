@@ -7,7 +7,10 @@
   "plugins": [
     {
       "name": "claude-complains",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "KirbyMcKenzie/claude-complains"
+      },
       "description": "Claude complains in a robot voice every time it finishes a task."
     }
   ]

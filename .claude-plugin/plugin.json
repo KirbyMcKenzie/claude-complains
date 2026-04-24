@@ -5,8 +5,8 @@
   "author": {
     "name": "Kirby McKenzie"
   },
-  "homepage": "https://github.com/kirbymckenzie/claude-complains",
-  "repository": "https://github.com/kirbymckenzie/claude-complains",
+  "homepage": "https://github.com/KirbyMcKenzie/claude-complains",
+  "repository": "https://github.com/KirbyMcKenzie/claude-complains",
   "license": "MIT",
   "keywords": ["fun", "tts", "hook", "macos", "say"],
   "userConfig": {

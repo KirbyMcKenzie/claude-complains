@@ -19,7 +19,7 @@ When Claude's `Stop` hook fires, this plugin rolls a dice and — depending on y
 ## Install
 
 ```
-/plugin marketplace add kirbymckenzie/claude-complains
+/plugin marketplace add KirbyMcKenzie/claude-complains
 /plugin install claude-complains@claude-complains
 ```
 
