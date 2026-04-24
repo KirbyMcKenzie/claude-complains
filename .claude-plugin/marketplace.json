@@ -1,0 +1,14 @@
+{
+  "name": "claude-complains",
+  "description": "Marketplace hosting the claude-complains plugin.",
+  "owner": {
+    "name": "Kirby McKenzie"
+  },
+  "plugins": [
+    {
+      "name": "claude-complains",
+      "source": ".",
+      "description": "Claude complains in a robot voice every time it finishes a task."
+    }
+  ]
+}

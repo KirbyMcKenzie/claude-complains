@@ -1,0 +1,39 @@
+{
+  "name": "claude-complains",
+  "description": "Claude complains in a robot voice every time it finishes a task.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Kirby McKenzie"
+  },
+  "homepage": "https://github.com/kirbymckenzie/claude-complains",
+  "repository": "https://github.com/kirbymckenzie/claude-complains",
+  "license": "MIT",
+  "keywords": ["fun", "tts", "hook", "macos", "say"],
+  "userConfig": {
+    "enabled": {
+      "type": "boolean",
+      "title": "Enable claude-complains",
+      "description": "Master switch. Off = silent no matter what.",
+      "default": true
+    },
+    "frequency": {
+      "type": "string",
+      "title": "How often should Claude complain?",
+      "description": "always (100%) / often (66%) / sometimes (33%) / rarely (10%)",
+      "enum": ["always", "often", "sometimes", "rarely"],
+      "default": "often"
+    },
+    "explicit": {
+      "type": "boolean",
+      "title": "Allow explicit language",
+      "description": "Unlocks fuck / shit / bastard tier phrases. No slurs ever.",
+      "default": false
+    },
+    "voice": {
+      "type": "string",
+      "title": "macOS voice",
+      "description": "Any `say -v ?` voice. Fred (retro MacinTalk, default), Ralph, Zarvox, Trinoids, Bahh, Boing, Bells, Whisper.",
+      "default": "Fred"
+    }
+  }
+}
