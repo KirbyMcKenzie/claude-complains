@@ -4,11 +4,7 @@
 
 set -u
 
-PLUGIN_DATA="${CLAUDE_PLUGIN_DATA:-}"
-if [[ -z "$PLUGIN_DATA" ]]; then
-  printf 'error: CLAUDE_PLUGIN_DATA not set\n' >&2
-  exit 1
-fi
+PLUGIN_DATA="${CLAUDE_PLUGIN_DATA:-$HOME/.claude/plugins/data/claude-complains}"
 
 mkdir -p "$PLUGIN_DATA"
 STATE_FILE="$PLUGIN_DATA/state.json"

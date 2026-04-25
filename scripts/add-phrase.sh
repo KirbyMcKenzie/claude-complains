@@ -4,13 +4,9 @@
 
 set -u
 
-PLUGIN_DATA="${CLAUDE_PLUGIN_DATA:-}"
-if [[ -z "$PLUGIN_DATA" ]]; then
-  printf 'error: CLAUDE_PLUGIN_DATA not set\n' >&2
-  exit 1
-fi
+PLUGIN_DATA="${CLAUDE_PLUGIN_DATA:-$HOME/.claude/plugins/data/claude-complains}"
 if ! command -v jq >/dev/null 2>&1; then
-  printf 'error: jq is required\n' >&2
+  printf 'error: jq is required (install with `brew install jq`)\n' >&2
   exit 1
 fi
 

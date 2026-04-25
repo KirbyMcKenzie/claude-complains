@@ -6,13 +6,12 @@
 
 set -u
 
-PLUGIN_DATA="${CLAUDE_PLUGIN_DATA:-}"
-if [[ -z "$PLUGIN_DATA" ]]; then
-  printf 'error: CLAUDE_PLUGIN_DATA not set\n' >&2
-  exit 1
-fi
+# Claude Code sets CLAUDE_PLUGIN_DATA when invoking plugin scripts via hooks,
+# but not always when the script is invoked directly from a slash command body.
+# Fall back to the standard plugin data dir so the script just works either way.
+PLUGIN_DATA="${CLAUDE_PLUGIN_DATA:-$HOME/.claude/plugins/data/claude-complains}"
 if ! command -v jq >/dev/null 2>&1; then
-  printf 'error: jq is required\n' >&2
+  printf 'error: jq is required (install with `brew install jq`)\n' >&2
   exit 1
 fi
 
