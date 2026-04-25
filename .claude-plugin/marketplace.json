@@ -4,6 +4,10 @@
   "owner": {
     "name": "Kirby McKenzie"
   },
+  "metadata": {
+    "description": "Single-plugin marketplace for claude-complains.",
+    "version": "0.1.0"
+  },
   "plugins": [
     {
       "name": "claude-complains",
@@ -11,7 +15,17 @@
         "source": "github",
         "repo": "KirbyMcKenzie/claude-complains"
       },
-      "description": "Claude complains in a robot voice every time it finishes a task."
+      "description": "Claude complains in a robot voice every time it finishes a task.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Kirby McKenzie"
+      },
+      "homepage": "https://github.com/KirbyMcKenzie/claude-complains",
+      "repository": "https://github.com/KirbyMcKenzie/claude-complains",
+      "license": "MIT",
+      "category": "fun",
+      "keywords": ["fun", "tts", "hook", "macos", "say"],
+      "tags": ["fun", "tts", "macos", "robot-voice", "stop-hook"]
     }
   ]
 }
