@@ -1,7 +1,7 @@
 {
   "name": "claude-complains",
   "description": "Claude complains in a robot voice every time it finishes a task.",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": {
     "name": "Kirby McKenzie"
   },
