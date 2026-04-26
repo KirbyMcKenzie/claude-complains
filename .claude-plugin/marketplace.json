@@ -6,14 +6,17 @@
   },
   "metadata": {
     "description": "Single-plugin marketplace for claude-complains.",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   "plugins": [
     {
       "name": "claude-complains",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "KirbyMcKenzie/claude-complains"
+      },
       "description": "Claude complains in a robot voice every time it finishes a task.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "author": {
         "name": "Kirby McKenzie"
       },
