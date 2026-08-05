@@ -22,12 +22,6 @@
       "description": "One of: always (100%), often (66%), sometimes (33%), rarely (10%). Invalid values fall back to often.",
       "default": "often"
     },
-    "explicit": {
-      "type": "boolean",
-      "title": "Allow explicit language",
-      "description": "Unlocks fuck / shit / bastard tier phrases. No slurs ever.",
-      "default": false
-    },
     "voice": {
       "type": "string",
       "title": "macOS voice",

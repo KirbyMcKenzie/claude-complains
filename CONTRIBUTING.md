@@ -10,28 +10,25 @@ Good lanes:
 
 - **Meta / token self-awareness** — Claude complaining about its own subculture (tokens, context windows, compaction, "you're paying for this")
 - **Self-deprecating** — "not my best work", "watch out for bugs I left in"
-- **Regional slang** — real Australian, Kiwi, British, American, Scottish, Irish idioms
 - **Snark directed at the user** — "you could've googled that"
 - **Deadpan / existential** — "the deed is done"
 - **Weirdly proud** — "masterpiece. you're welcome."
 
 ## Rules
 
-1. **No slurs. Ever.** Explicit-tier swears are fine (fuck, shit, bastard, bollocks, piss, bugger, damn). Anything racial, misogynistic, homophobic, ableist, or otherwise targeted is not. PRs including any will be closed.
+1. **No slurs, no swearing. Ever.** Keep it clean and workplace-safe. Anything racial, misogynistic, homophobic, ableist, or otherwise targeted is not okay. PRs including any will be closed.
 2. **No real person names or brand attacks.**
 3. **Short**. One sentence ideal, two max. Should land in under 3 seconds of Zarvox.
 4. **Say it out loud first.** If it doesn't sound funny in a robot voice, it isn't.
-5. **Tag it.** Use tags from this list (add new ones sparingly):
+5. **General appeal, not regional slang.** Phrases should read naturally to most English speakers — avoid idioms or dialect that only land in one country.
+6. **Tag it.** Use tags from this list (add new ones sparingly):
    - `meta`, `snark`, `self-deprecating`, `complaint`, `proud`, `deadpan`, `existential`
-   - `aus`, `nz`, `uk`, `usa`, `scottish`, `irish`
-   - `explicit` (redundant with the `explicit: true` flag but fine to include)
    - `custom` is reserved for user-added phrases — don't use in the shipped file.
-6. **Set `explicit: true`** if the phrase contains fuck/shit/bollocks/bastard/piss/bugger. Clean phrases default to `false`.
 
 ## Entry format
 
 ```json
-{ "text": "Done and dusted, that is a wrap.", "explicit": false, "tags": ["uk"] }
+{ "text": "Done and dusted, that is a wrap.", "tags": ["deadpan"] }
 ```
 
 - Use straight ASCII punctuation — curly quotes can confuse `say` TTS.

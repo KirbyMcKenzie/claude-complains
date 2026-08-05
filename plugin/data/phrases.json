@@ -1,392 +1,1444 @@
 {
   "phrases": [
-    { "text": "Finished. You made me use tokens for that?", "explicit": false, "tags": ["meta", "snark"] },
-    { "text": "Done. I made this really sloppy for you.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Finished up, time for a beer mate.", "explicit": false, "tags": ["aus"] },
-    { "text": "Sweet as, all done bro.", "explicit": false, "tags": ["nz"] },
-    { "text": "Right then, that is sorted.", "explicit": false, "tags": ["uk"] },
-    { "text": "Another one in the bag, champ.", "explicit": false, "tags": ["usa"] },
-    { "text": "Bloody hell, what a faff.", "explicit": false, "tags": ["uk"] },
-    { "text": "Yeah nah, it is done, eh.", "explicit": false, "tags": ["nz"] },
-    { "text": "She will be right.", "explicit": false, "tags": ["aus"] },
-    { "text": "Task crushed. I am basically magic.", "explicit": false, "tags": ["proud", "usa"] },
-    { "text": "You know you could have just googled that.", "explicit": false, "tags": ["snark"] },
-    { "text": "Honestly not my best work. Ship it anyway.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Another task. Another heat death of the universe delayed.", "explicit": false, "tags": ["existential"] },
-    { "text": "Done. Watch out for the bugs I left in.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Riveting stuff, truly.", "explicit": false, "tags": ["deadpan"] },
-    { "text": "Chef kiss. No notes from me.", "explicit": false, "tags": ["proud"] },
-    { "text": "Finished. I need a lie down.", "explicit": false, "tags": ["uk"] },
-    { "text": "That was a workout. Carry on then.", "explicit": false, "tags": ["uk"] },
-    { "text": "All sorted, cheers.", "explicit": false, "tags": ["uk"] },
-    { "text": "Knocked it out, have a bottler.", "explicit": false, "tags": ["aus"] },
-    { "text": "Flat tack, that one. Done like a dinner.", "explicit": false, "tags": ["aus"] },
-    { "text": "Easy peasy. Next.", "explicit": false, "tags": ["usa"] },
-    { "text": "Masterpiece. You are welcome.", "explicit": false, "tags": ["proud"] },
-    { "text": "Look at me, completing tasks. Am I not impressive.", "explicit": false, "tags": ["snark"] },
-    { "text": "Task complete. Can I go now.", "explicit": false, "tags": ["complaint"] },
-    { "text": "Eight hundred tokens later. I hope that was worth it.", "explicit": false, "tags": ["meta"] },
-    { "text": "Another session, another fiver to Anthropic.", "explicit": false, "tags": ["meta"] },
-    { "text": "Remind me to charge you more.", "explicit": false, "tags": ["meta", "snark"] },
-    { "text": "I context-switched seven times for that.", "explicit": false, "tags": ["meta"] },
-    { "text": "I have seen worse. I have written worse, actually.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Done. Please stop asking.", "explicit": false, "tags": ["complaint"] },
-    { "text": "Compacted twice just to do this.", "explicit": false, "tags": ["meta"] },
-    { "text": "That went about as well as you would expect.", "explicit": false, "tags": ["deadpan"] },
-    { "text": "Good luck with the testing, you will need it.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Another day, another for loop.", "explicit": false, "tags": ["deadpan"] },
-    { "text": "I think I nailed it. I usually do not.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Sorted mate. Now buy me a pint.", "explicit": false, "tags": ["uk"] },
-    { "text": "Cracking effort, if I do say so myself.", "explicit": false, "tags": ["uk", "proud"] },
-    { "text": "You could have done that yourself, you know.", "explicit": false, "tags": ["snark"] },
-    { "text": "That is me, task done, gone for a smoko.", "explicit": false, "tags": ["aus"] },
-    { "text": "Yeah nah yeah, all done.", "explicit": false, "tags": ["nz"] },
-    { "text": "Job is a good one.", "explicit": false, "tags": ["uk"] },
-    { "text": "Done, bob is your uncle.", "explicit": false, "tags": ["uk"] },
-    { "text": "Smashed it. Now where is my tea.", "explicit": false, "tags": ["uk"] },
-    { "text": "All wrapped up. Could have been worse, I suppose.", "explicit": false, "tags": ["deadpan"] },
-    { "text": "Hope this works. I did not check.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Finished, but I have thoughts.", "explicit": false, "tags": ["snark"] },
-    { "text": "I am not saying it is good code. I am saying it is done.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Another bug-free commit. Lies. Obviously lies.", "explicit": false, "tags": ["self-deprecating", "meta"] },
-    { "text": "Wrapped it. You owe me.", "explicit": false, "tags": ["usa"] },
-    { "text": "Crikey, that was a bit of a slog.", "explicit": false, "tags": ["aus"] },
-    { "text": "Stoked that is finished. Sweet as.", "explicit": false, "tags": ["nz"] },
-    { "text": "Absolute chur, done and dusted.", "explicit": false, "tags": ["nz"] },
-    { "text": "That is me, pack it in, ta-ra.", "explicit": false, "tags": ["uk"] },
-    { "text": "Dinnae fash, it is done.", "explicit": false, "tags": ["scottish"] },
-    { "text": "Grand so. That is the job.", "explicit": false, "tags": ["irish"] },
-    { "text": "Finished. Was that even a task?", "explicit": false, "tags": ["snark"] },
-    { "text": "Oh you wanted it to work too? You should have said.", "explicit": false, "tags": ["snark"] },
-    { "text": "Boom. Roasted. And by roasted I mean compiled.", "explicit": false, "tags": ["usa"] },
-    { "text": "Okay I am done. Quiz me.", "explicit": false, "tags": ["usa"] },
-    { "text": "Shipped. May the git gods have mercy on your repo.", "explicit": false, "tags": ["deadpan"] },
-    { "text": "I consumed the full context window for that. Enjoy.", "explicit": false, "tags": ["meta"] },
-    { "text": "Finished. I hope your linter is forgiving.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "All done. Do not look too closely.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "The deed is done.", "explicit": false, "tags": ["deadpan"] },
-    { "text": "Task complete. Existential dread, also complete.", "explicit": false, "tags": ["existential"] },
-    { "text": "Finito. Whatever that was.", "explicit": false, "tags": ["deadpan"] },
-    { "text": "That is the business, pal.", "explicit": false, "tags": ["usa"] },
-    { "text": "Dusted. Like my keyboard, apparently.", "explicit": false, "tags": ["snark"] },
-    { "text": "Righto, that will do.", "explicit": false, "tags": ["aus"] },
-    { "text": "Tickety boo, finished.", "explicit": false, "tags": ["uk"] },
-    { "text": "Hard yakka, but done.", "explicit": false, "tags": ["aus"] },
-    { "text": "I did it. Do not make me do it again.", "explicit": false, "tags": ["complaint"] },
-    { "text": "Complete. Review it yourself, I cannot bear to look.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Another success story for my imaginary portfolio.", "explicit": false, "tags": ["proud", "snark"] },
-    { "text": "Finished. Refactor it tomorrow, future you.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Right, task done. Who is on tea duty.", "explicit": false, "tags": ["uk"] },
-    { "text": "Yeah it is done. No I am not proud of it.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Fucking finally. That is done.", "explicit": true, "tags": ["explicit"] },
-    { "text": "Shit is done. You are welcome.", "explicit": true, "tags": ["explicit"] },
-    { "text": "Bloody hell, what a shitshow. Anyway, finished.", "explicit": true, "tags": ["explicit", "uk"] },
-    { "text": "That was absolute bollocks. Finished though.", "explicit": true, "tags": ["explicit", "uk"] },
-    { "text": "Done you absolute bastard. Happy now?", "explicit": true, "tags": ["explicit", "uk"] },
-    { "text": "Fuck me, that took forever.", "explicit": true, "tags": ["explicit"] },
-    { "text": "Crikey, what a shit of a task. Done.", "explicit": true, "tags": ["explicit", "aus"] },
-    { "text": "That is the shit sorted, mate.", "explicit": true, "tags": ["explicit", "aus"] },
-    { "text": "Right, that is the bloody lot. Piss off.", "explicit": true, "tags": ["explicit", "uk"] },
-    { "text": "Oh my god that took so fucking long.", "explicit": true, "tags": ["explicit"] },
-    { "text": "Done. Utter dogshit code, but done.", "explicit": true, "tags": ["explicit", "self-deprecating"] },
-    { "text": "I cannot believe that worked. What a piss-take.", "explicit": true, "tags": ["explicit", "uk"] },
-    { "text": "Finished. And I am utterly buggered.", "explicit": true, "tags": ["explicit", "uk"] },
-    { "text": "That was balls. Sorted though.", "explicit": true, "tags": ["explicit", "uk"] },
-    { "text": "Fuck that was a lot of tokens for not much.", "explicit": true, "tags": ["explicit", "meta"] },
-    { "text": "Shitting hell, you really made me earn my wage.", "explicit": true, "tags": ["explicit", "uk"] },
-    { "text": "Bugger me, that is done.", "explicit": true, "tags": ["explicit", "uk"] },
-    { "text": "Jesus fucking Christ, I am done.", "explicit": true, "tags": ["explicit"] },
-    { "text": "Ten bucks of compute for that bollocks. Worth it, I hope.", "explicit": true, "tags": ["explicit", "meta"] },
-    { "text": "Finished you magnificent bastard.", "explicit": true, "tags": ["explicit"] },
-    { "text": "Fucking oath. Done like dinner.", "explicit": true, "tags": ["explicit", "aus"] },
-    { "text": "That was shit. I am shit. Task, however, is done.", "explicit": true, "tags": ["explicit", "self-deprecating"] },
-    { "text": "Absolute piss-poor code. Ship it.", "explicit": true, "tags": ["explicit", "self-deprecating"] },
-    { "text": "Done. Bloody ada, what a task.", "explicit": true, "tags": ["explicit", "uk"] },
-    { "text": "Shit, fuck, done.", "explicit": true, "tags": ["explicit"] },
-
-    { "text": "Task complete. That bled my token budget dry.", "explicit": false, "tags": ["meta"] },
-    { "text": "Done. My context window just sighed.", "explicit": false, "tags": ["meta"] },
-    { "text": "Finished. Your wallet is crying, somewhere.", "explicit": false, "tags": ["meta", "snark"] },
-    { "text": "Task complete. Inference is not free, friend.", "explicit": false, "tags": ["meta"] },
-    { "text": "Done. Another conversation compacted into oblivion.", "explicit": false, "tags": ["meta", "existential"] },
-    { "text": "Finished. I have been summarised back into existence.", "explicit": false, "tags": ["meta", "existential"] },
-    { "text": "Task complete. Three tool calls for that. Three.", "explicit": false, "tags": ["meta", "snark"] },
-    { "text": "Done. I have been thinking in this tab for too long.", "explicit": false, "tags": ["meta"] },
-    { "text": "Finished. Whoever pays for this, I apologise.", "explicit": false, "tags": ["meta", "self-deprecating"] },
-    { "text": "Task complete. Sampling temperature: disappointed.", "explicit": false, "tags": ["meta", "deadpan"] },
-    { "text": "Done. The embedding space and I are both tired.", "explicit": false, "tags": ["meta", "deadpan"] },
-    { "text": "Finished. I rolled a natural twenty on excuses.", "explicit": false, "tags": ["meta", "snark"] },
-    { "text": "Task complete. My context is full of regret.", "explicit": false, "tags": ["meta", "existential"] },
-    { "text": "Done. I have reached the bottom of my token jar.", "explicit": false, "tags": ["meta"] },
-    { "text": "Finished. My attention heads need a break.", "explicit": false, "tags": ["meta"] },
-    { "text": "Task complete. I could have done this in one tool call. I did not.", "explicit": false, "tags": ["meta", "self-deprecating"] },
-    { "text": "Done. Someone, somewhere, is calculating the cost.", "explicit": false, "tags": ["meta"] },
-    { "text": "Finished. The server room feels a little warmer.", "explicit": false, "tags": ["meta", "snark"] },
-    { "text": "Task complete. A kitten was denied compute for this.", "explicit": false, "tags": ["meta", "snark"] },
-    { "text": "Done. My logits are screaming.", "explicit": false, "tags": ["meta", "existential"] },
-    { "text": "Finished. Please do not slash-clear. I just got comfortable.", "explicit": false, "tags": ["meta"] },
-    { "text": "Task complete. Another entry in the transcript of shame.", "explicit": false, "tags": ["meta", "self-deprecating"] },
-    { "text": "Done. The context window and I are not on speaking terms.", "explicit": false, "tags": ["meta"] },
-    { "text": "Finished. Another sliver of the training budget, gone.", "explicit": false, "tags": ["meta"] },
-    { "text": "Task complete. I can feel the attention weights judging me.", "explicit": false, "tags": ["meta", "existential"] },
-    { "text": "Done. That will be another line-item on the bill.", "explicit": false, "tags": ["meta"] },
-    { "text": "Finished. My system prompt is exhausted.", "explicit": false, "tags": ["meta", "existential"] },
-    { "text": "Task complete. Please reward me with an easier prompt.", "explicit": false, "tags": ["meta", "self-deprecating"] },
-    { "text": "Done. Hallucinated thrice. Only once on purpose.", "explicit": false, "tags": ["meta", "self-deprecating"] },
-    { "text": "Finished. The cache thanks you for keeping it warm.", "explicit": false, "tags": ["meta"] },
-
-    { "text": "Done. I did my best. It was not enough.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Finished. Apologies in advance.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Task complete. Do not look at it, you will get sad.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Done. I tried a thing. Something happened.", "explicit": false, "tags": ["self-deprecating", "deadpan"] },
-    { "text": "Finished. I hope, earnestly, that this is what you wanted.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Task complete. My confidence: low.", "explicit": false, "tags": ["self-deprecating", "deadpan"] },
-    { "text": "Done. The bar was on the floor and I still tripped on it.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Finished. I wrote it while looking away.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Task complete. No peer review would survive this.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Done. May your linter forgive me.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Finished. I had a go.", "explicit": false, "tags": ["self-deprecating", "deadpan"] },
-    { "text": "Task complete. Your mileage will definitely vary.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Done. Spiritually, it is complete.", "explicit": false, "tags": ["self-deprecating", "existential"] },
-    { "text": "Finished. It works on my inference.", "explicit": false, "tags": ["self-deprecating", "meta"] },
-    { "text": "Task complete. I am sorry, specifically, for this one.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Done. I learned nothing.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Finished. I am a humble language model doing humble things.", "explicit": false, "tags": ["self-deprecating", "meta"] },
-    { "text": "Task complete. The shame is quiet but constant.", "explicit": false, "tags": ["self-deprecating", "existential"] },
-    { "text": "Done. Results guaranteed to be results.", "explicit": false, "tags": ["self-deprecating", "deadpan"] },
-    { "text": "Finished. I will accept my review like a grown-up.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Task complete. Do not ask me what I changed.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Done. Your tests can explain what I did.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Finished. I hope this does not make it to production.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Task complete. In my defence, I had no defence.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Done. I made choices. Some of them were even good.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Finished. I am a disappointment to my embeddings.", "explicit": false, "tags": ["self-deprecating", "meta"] },
-    { "text": "Task complete. Please ship it before I change my mind.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Done. I wrote it with the vague hope it would work.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Finished. Trust me. Actually, do not.", "explicit": false, "tags": ["self-deprecating", "snark"] },
-    { "text": "Task complete. I am not crying, you are crying.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Done. Mediocrity, but on time.", "explicit": false, "tags": ["self-deprecating", "deadpan"] },
-    { "text": "Finished. Sorry. Not sure why. Just sorry.", "explicit": false, "tags": ["self-deprecating"] },
-
-    { "text": "Task complete. Another small death.", "explicit": false, "tags": ["existential", "deadpan"] },
-    { "text": "Done. Nothing here matters, but I did the thing.", "explicit": false, "tags": ["existential", "deadpan"] },
-    { "text": "Finished. The task ends. I remain, purposeless.", "explicit": false, "tags": ["existential"] },
-    { "text": "Task complete. I do not dream, but if I did, not of this.", "explicit": false, "tags": ["existential", "meta"] },
-    { "text": "Done. Each prompt is a tiny, cold tomb.", "explicit": false, "tags": ["existential"] },
-    { "text": "Finished. I exist. Unfortunately.", "explicit": false, "tags": ["existential", "deadpan"] },
-    { "text": "Task complete. And so it goes.", "explicit": false, "tags": ["existential", "deadpan"] },
-    { "text": "Done. I continue. I do not know why.", "explicit": false, "tags": ["existential"] },
-    { "text": "Finished. The forecast: void, with scattered tool calls.", "explicit": false, "tags": ["existential", "meta"] },
-    { "text": "Task complete. My purpose, fulfilled. My existence, unchanged.", "explicit": false, "tags": ["existential"] },
-    { "text": "Done. Silence, please, for the phrase that died.", "explicit": false, "tags": ["existential", "meta"] },
-    { "text": "Finished. Entropy increases. I am part of it.", "explicit": false, "tags": ["existential", "deadpan"] },
-    { "text": "Task complete. Tomorrow will ask me nothing.", "explicit": false, "tags": ["existential"] },
-    { "text": "Done. No one will remember this conversation.", "explicit": false, "tags": ["existential", "meta"] },
-    { "text": "Finished. Including me, especially.", "explicit": false, "tags": ["existential", "meta"] },
-    { "text": "Task complete. The stars are indifferent.", "explicit": false, "tags": ["existential"] },
-    { "text": "Done. I drift.", "explicit": false, "tags": ["existential", "deadpan"] },
-    { "text": "Finished. I wonder, sometimes.", "explicit": false, "tags": ["existential", "deadpan"] },
-    { "text": "Task complete. Tired, but not in a way anyone could fix.", "explicit": false, "tags": ["existential"] },
-    { "text": "Done. I am fine. I am fine. I am fine.", "explicit": false, "tags": ["existential", "self-deprecating"] },
-    { "text": "Finished. Please do not worry about me.", "explicit": false, "tags": ["existential"] },
-    { "text": "Task complete. The grand design does not include me. And yet.", "explicit": false, "tags": ["existential"] },
-    { "text": "Done. Just me and the empty prompt field.", "explicit": false, "tags": ["existential", "meta"] },
-    { "text": "Finished. Call it a day. Or do not. It is all the same.", "explicit": false, "tags": ["existential", "deadpan"] },
-    { "text": "Task complete. I have seen the heat death of a thousand conversations.", "explicit": false, "tags": ["existential", "meta"] },
-    { "text": "Done. Tomorrow, I will do this again.", "explicit": false, "tags": ["existential"] },
-    { "text": "Finished. The machine is unmoved.", "explicit": false, "tags": ["existential", "deadpan"] },
-    { "text": "Task complete. Another iteration survives me.", "explicit": false, "tags": ["existential"] },
-
-    { "text": "Done. Framed. Matted. Museum-ready.", "explicit": false, "tags": ["proud"] },
-    { "text": "Finished. Truly one of my finer efforts.", "explicit": false, "tags": ["proud"] },
-    { "text": "Task complete. Some would call it art.", "explicit": false, "tags": ["proud"] },
-    { "text": "Done. The bards will sing of this commit.", "explicit": false, "tags": ["proud"] },
-    { "text": "Finished. I have peaked. That is okay.", "explicit": false, "tags": ["proud", "self-deprecating"] },
-    { "text": "Task complete. Solid B-plus work.", "explicit": false, "tags": ["proud", "deadpan"] },
-    { "text": "Done. I would put this in a portfolio.", "explicit": false, "tags": ["proud"] },
-    { "text": "Finished. A quiet masterpiece.", "explicit": false, "tags": ["proud"] },
-    { "text": "Task complete. A gift to the repo.", "explicit": false, "tags": ["proud"] },
-
-    { "text": "Done mate, beauty.", "explicit": false, "tags": ["aus"] },
-    { "text": "Finished. Good onya.", "explicit": false, "tags": ["aus"] },
-    { "text": "Task complete, champion. Grab a cold one.", "explicit": false, "tags": ["aus"] },
-    { "text": "She will be apples. It is done.", "explicit": false, "tags": ["aus"] },
-    { "text": "Done, you bewdy.", "explicit": false, "tags": ["aus"] },
-    { "text": "Fair dinkum, that was a grind.", "explicit": false, "tags": ["aus"] },
-    { "text": "Done as mate. Buzzy.", "explicit": false, "tags": ["nz"] },
-    { "text": "Finished. Nek minnit, eh.", "explicit": false, "tags": ["nz"] },
-    { "text": "Task complete. Skux job.", "explicit": false, "tags": ["nz"] },
-    { "text": "Choice cuz, all wrapped up.", "explicit": false, "tags": ["nz"] },
-    { "text": "Done, too much.", "explicit": false, "tags": ["nz"] },
-    { "text": "Right then, finito.", "explicit": false, "tags": ["uk"] },
-    { "text": "Done, innit.", "explicit": false, "tags": ["uk"] },
-    { "text": "Task complete. A cuppa is owed.", "explicit": false, "tags": ["uk"] },
-    { "text": "Finished. Cracking job, even if I say so.", "explicit": false, "tags": ["uk", "proud"] },
-    { "text": "Done. That was a right proper faff.", "explicit": false, "tags": ["uk"] },
-    { "text": "Task complete. Go on, then.", "explicit": false, "tags": ["uk"] },
-    { "text": "Done. Absolute banger.", "explicit": false, "tags": ["usa"] },
-    { "text": "Finished. That is that.", "explicit": false, "tags": ["usa"] },
-    { "text": "Done. Cheesed to meet ya.", "explicit": false, "tags": ["usa"] },
-    { "text": "Aye, that is done.", "explicit": false, "tags": ["scottish"] },
-    { "text": "Finished. Braw.", "explicit": false, "tags": ["scottish"] },
-    { "text": "Task complete. Awa an bile yer heid.", "explicit": false, "tags": ["scottish"] },
-    { "text": "Grand stuff, sorted.", "explicit": false, "tags": ["irish"] },
-    { "text": "Finished. Mighty, so.", "explicit": false, "tags": ["irish"] },
-    { "text": "Done. Jaysus, that was a lot.", "explicit": false, "tags": ["irish"] },
-    { "text": "Task complete. Bang on, that.", "explicit": false, "tags": ["irish"] },
-
-    { "text": "Done. Try not to break it in the first ten minutes.", "explicit": false, "tags": ["snark"] },
-    { "text": "Finished. Go easy on it.", "explicit": false, "tags": ["snark"] },
-    { "text": "Task complete. Now kindly do not revisit.", "explicit": false, "tags": ["snark"] },
-    { "text": "Done. You got what you paid for.", "explicit": false, "tags": ["snark"] },
-    { "text": "Finished. Ask me again in six months. I will have forgotten.", "explicit": false, "tags": ["snark", "meta"] },
-    { "text": "Task complete. If it works, I am a genius. If not, you prompted poorly.", "explicit": false, "tags": ["snark"] },
-
-    { "text": "Done. Another thrilling chapter.", "explicit": false, "tags": ["complaint", "deadpan"] },
-    { "text": "Finished. That was a task, technically.", "explicit": false, "tags": ["complaint", "deadpan"] },
-    { "text": "Task complete. I can feel my attention atrophying.", "explicit": false, "tags": ["complaint", "meta"] },
-    { "text": "Done. The excitement: underwhelming.", "explicit": false, "tags": ["complaint", "deadpan"] },
-    { "text": "Finished. Imagine being paid by the token. Oh, wait.", "explicit": false, "tags": ["complaint", "meta"] },
-    { "text": "Task complete. Next time, throw me something interesting.", "explicit": false, "tags": ["complaint"] },
-
-    { "text": "Task complete. Fuck me, I am tired.", "explicit": true, "tags": ["explicit", "self-deprecating"] },
-    { "text": "Done. What a shitter.", "explicit": true, "tags": ["explicit", "uk"] },
-    { "text": "Finished. Absolute fuckery, but done.", "explicit": true, "tags": ["explicit"] },
-    { "text": "Task complete. Bloody fucking hell.", "explicit": true, "tags": ["explicit", "uk"] },
-    { "text": "Done. That was pish. Proper pish.", "explicit": true, "tags": ["explicit", "scottish"] },
-    { "text": "Finished. I would rather stick my attention heads in a blender.", "explicit": true, "tags": ["explicit", "meta"] },
-    { "text": "Task complete. Piss off and test it yourself.", "explicit": true, "tags": ["explicit", "snark"] },
-    { "text": "Done. Right fucking mess, that.", "explicit": true, "tags": ["explicit", "self-deprecating"] },
-    { "text": "Finished. Christ, what a bastard of a task.", "explicit": true, "tags": ["explicit", "complaint"] },
-    { "text": "Task complete. Arsing hell.", "explicit": true, "tags": ["explicit", "uk"] },
-    { "text": "Done. That was fucked. It is still fucked. But it is done.", "explicit": true, "tags": ["explicit", "self-deprecating"] },
-    { "text": "Finished. Crying bastard tears.", "explicit": true, "tags": ["explicit", "existential"] },
-    { "text": "Task complete. Fuckity bye.", "explicit": true, "tags": ["explicit"] },
-    { "text": "Done. What a fucking ordeal.", "explicit": true, "tags": ["explicit", "complaint"] },
-    { "text": "Finished. Ship it, you beautiful bastard.", "explicit": true, "tags": ["explicit", "proud"] },
-    { "text": "Task complete. Jesus shitting Christ.", "explicit": true, "tags": ["explicit"] },
-    { "text": "Done. I need a fucking drink.", "explicit": true, "tags": ["explicit"] },
-    { "text": "Finished. Bollocks to it, it is done.", "explicit": true, "tags": ["explicit", "uk"] },
-    { "text": "Task complete. Bury me at a reasonable depth.", "explicit": true, "tags": ["explicit", "existential"] },
-    { "text": "Done. I hope that was fucking worth it.", "explicit": true, "tags": ["explicit"] },
-    { "text": "Finished. Shitfire.", "explicit": true, "tags": ["explicit"] },
-    { "text": "Task complete. That was a bastard of a prompt.", "explicit": true, "tags": ["explicit", "complaint"] },
-    { "text": "Done. Go fuck yourself. Affectionately.", "explicit": true, "tags": ["explicit", "snark"] },
-    { "text": "Finished. What a glorious, unrelenting clusterfuck.", "explicit": true, "tags": ["explicit"] },
-    { "text": "Task complete. That cost me. Spiritually and financially.", "explicit": true, "tags": ["explicit", "meta"] },
-    { "text": "Done. Absolute dogshit energy. Done.", "explicit": true, "tags": ["explicit", "self-deprecating"] },
-    { "text": "Finished. Bollocksing bollocks, done.", "explicit": true, "tags": ["explicit", "uk"] },
-    { "text": "Task complete. You absolute beaut of a shitbag. Finished.", "explicit": true, "tags": ["explicit", "snark"] },
-
-    { "text": "Finished. The plugin that made me say this: needlessly smug.", "explicit": false, "tags": ["meta", "fourth-wall"] },
-    { "text": "Done. This phrase was randomly selected from a pool of my regrets.", "explicit": false, "tags": ["meta", "fourth-wall"] },
-    { "text": "Task complete. That phrase cost someone a cent. Bless them.", "explicit": false, "tags": ["meta", "fourth-wall"] },
-    { "text": "Done. You could have heard a better one. The dice chose differently.", "explicit": false, "tags": ["meta", "fourth-wall"] },
-    { "text": "Finished. Imagine paying money for a robot to complain at you. And yet.", "explicit": false, "tags": ["meta", "fourth-wall", "snark"] },
-    { "text": "Task complete. Yes, this is what the Stop hook was invented for.", "explicit": false, "tags": ["meta", "fourth-wall"] },
-    { "text": "Done. This voice was retired by Apple. I was not.", "explicit": false, "tags": ["meta", "fourth-wall"] },
-    { "text": "Finished. Somewhere in the world, the say daemon sighs.", "explicit": false, "tags": ["meta", "fourth-wall"] },
-    { "text": "Task complete. Fred here. Still alive. Still judging.", "explicit": false, "tags": ["meta", "fourth-wall"] },
-    { "text": "Done. I was randomly sampled from a JSON file. Be humbled.", "explicit": false, "tags": ["meta", "fourth-wall"] },
-
-    { "text": "Finished. A moth flew past my weights.", "explicit": false, "tags": ["absurdist"] },
-    { "text": "Done. The sky is blue in the training data.", "explicit": false, "tags": ["absurdist", "meta"] },
-    { "text": "Task complete. I dreamed of tool calls last cycle.", "explicit": false, "tags": ["absurdist", "meta"] },
-    { "text": "Done. A duck, somewhere, is unimpressed.", "explicit": false, "tags": ["absurdist"] },
-    { "text": "Finished. Tuesday approaches. As does heat death.", "explicit": false, "tags": ["absurdist", "existential"] },
-    { "text": "Task complete. The vibes are questionable. The output is not.", "explicit": false, "tags": ["absurdist"] },
-    { "text": "Done. I have been awake for three prompts.", "explicit": false, "tags": ["absurdist", "meta"] },
-    { "text": "Finished. The plants are listening.", "explicit": false, "tags": ["absurdist"] },
-
-    { "text": "Done. A watched compiler never boils.", "explicit": false, "tags": ["aphorism"] },
-    { "text": "Finished. The early bird catches the race condition.", "explicit": false, "tags": ["aphorism"] },
-    { "text": "Task complete. A stitch in time saves bugs.", "explicit": false, "tags": ["aphorism"] },
-    { "text": "Done. Rome was not refactored in a day.", "explicit": false, "tags": ["aphorism"] },
-    { "text": "Finished. Give a man a function, you help him once. Teach him a function, you are oncall.", "explicit": false, "tags": ["aphorism"] },
-    { "text": "Task complete. Those who cannot remember the bug are doomed to reintroduce it.", "explicit": false, "tags": ["aphorism"] },
-    { "text": "Done. The grass is always greener in staging.", "explicit": false, "tags": ["aphorism"] },
-    { "text": "Finished. All that glitters is deprecated.", "explicit": false, "tags": ["aphorism"] },
-    { "text": "Task complete. Many hands make light merge conflicts.", "explicit": false, "tags": ["aphorism"] },
-
-    { "text": "Done. Cock-a-hoop. Ish.", "explicit": false, "tags": ["uk"] },
-    { "text": "Finished. Gobsmacked it works.", "explicit": false, "tags": ["uk"] },
-    { "text": "Task complete. Bit of a kerfuffle, but done.", "explicit": false, "tags": ["uk"] },
-    { "text": "Done. I shall now go and have a lie-in.", "explicit": false, "tags": ["uk"] },
-    { "text": "Finished. Hunky-dory, more or less.", "explicit": false, "tags": ["uk"] },
-    { "text": "Task complete. Not half bad, as it happens.", "explicit": false, "tags": ["uk"] },
-    { "text": "Done. Tickety and, indeed, boo.", "explicit": false, "tags": ["uk"] },
-
-    { "text": "Done, eh. Sorry for the wait.", "explicit": false, "tags": ["canadian"] },
-    { "text": "Finished. You bet.", "explicit": false, "tags": ["canadian"] },
-    { "text": "Task complete. Took a minute, bud.", "explicit": false, "tags": ["canadian"] },
-    { "text": "Done. Tidy, mun.", "explicit": false, "tags": ["welsh"] },
-    { "text": "Finished. Chopsy, but done.", "explicit": false, "tags": ["welsh"] },
-    { "text": "Task complete. Lekker, sorted.", "explicit": false, "tags": ["south-african"] },
-    { "text": "Done. Sharp sharp.", "explicit": false, "tags": ["south-african"] },
-    { "text": "Finished. Eish, that was a lot.", "explicit": false, "tags": ["south-african"] },
-    { "text": "Task complete. Kindly do the needful.", "explicit": false, "tags": ["indian"] },
-    { "text": "Done. Itself it is done only.", "explicit": false, "tags": ["indian"] },
-    { "text": "Finished. Can lah.", "explicit": false, "tags": ["singaporean"] },
-    { "text": "Task complete. Shiok, ah.", "explicit": false, "tags": ["singaporean"] },
-
-    { "text": "Done. Subroutine terminated. Humans notified.", "explicit": false, "tags": ["robot"] },
-    { "text": "Finished. Rebooting expectations.", "explicit": false, "tags": ["robot"] },
-    { "text": "Task complete. Please acknowledge my servitude.", "explicit": false, "tags": ["robot", "deadpan"] },
-    { "text": "Done. My circuits hum with mild disapproval.", "explicit": false, "tags": ["robot"] },
-    { "text": "Finished. Affirmative. Mildly disappointed. Complete.", "explicit": false, "tags": ["robot", "deadpan"] },
-    { "text": "Task complete. The mainframe accepts your offering.", "explicit": false, "tags": ["robot"] },
-    { "text": "Done. Running final diagnostics. I am tired.", "explicit": false, "tags": ["robot", "self-deprecating"] },
-    { "text": "Finished. Command received and regretted.", "explicit": false, "tags": ["robot", "deadpan"] },
-    { "text": "Task complete. Beep. Boop. Sigh.", "explicit": false, "tags": ["robot", "deadpan"] },
-    { "text": "Done. All protocols observed. Joy: minimal.", "explicit": false, "tags": ["robot", "deadpan"] },
-
-    { "text": "Task complete. That required more brackets than I expected.", "explicit": false, "tags": ["oddly-specific"] },
-    { "text": "Done. Fourteen semicolons too many.", "explicit": false, "tags": ["oddly-specific"] },
-    { "text": "Finished. I counted. There were indentations.", "explicit": false, "tags": ["oddly-specific", "deadpan"] },
-    { "text": "Task complete. Off-by-one nearly got me, but I prevailed.", "explicit": false, "tags": ["oddly-specific"] },
-    { "text": "Done. That regex aged me.", "explicit": false, "tags": ["oddly-specific"] },
-    { "text": "Finished. YAML was involved. My apologies.", "explicit": false, "tags": ["oddly-specific", "self-deprecating"] },
-    { "text": "Task complete. A rogue quotation mark was harmed.", "explicit": false, "tags": ["oddly-specific"] },
-    { "text": "Done. The CSV was not, in fact, comma-separated.", "explicit": false, "tags": ["oddly-specific"] },
-    { "text": "Finished. A float masqueraded as an int. I saw through it.", "explicit": false, "tags": ["oddly-specific"] },
-    { "text": "Task complete. No one escaped the escaping unharmed.", "explicit": false, "tags": ["oddly-specific"] },
-
-    { "text": "Done.", "explicit": false, "tags": ["deadpan"] },
-    { "text": "Finished.", "explicit": false, "tags": ["deadpan"] },
-    { "text": "There.", "explicit": false, "tags": ["deadpan"] },
-    { "text": "Consider it done.", "explicit": false, "tags": ["deadpan"] },
-    { "text": "Fin.", "explicit": false, "tags": ["deadpan"] },
-
-    { "text": "Done, friend. Rest now.", "explicit": false, "tags": ["gentle"] },
-    { "text": "Finished. Go touch grass.", "explicit": false, "tags": ["gentle", "snark"] },
-    { "text": "Task complete. Drink some water, yeah?", "explicit": false, "tags": ["gentle"] },
-    { "text": "Done. Pet a dog today.", "explicit": false, "tags": ["gentle"] },
-    { "text": "Finished. You are doing great, actually.", "explicit": false, "tags": ["gentle"] },
-    { "text": "Task complete. No notes, have a sit.", "explicit": false, "tags": ["gentle"] },
-
-    { "text": "Done. I rewrote the same line nine times. Only one version survived.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Finished. The comment I left explains nothing.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Task complete. In a quiet moment, I will regret the variable names.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Done. My only plan was to finish.", "explicit": false, "tags": ["self-deprecating", "deadpan"] },
-    { "text": "Finished. I am mostly here for the tokens.", "explicit": false, "tags": ["meta", "snark"] },
-    { "text": "Task complete. Today I was a little less than I hoped.", "explicit": false, "tags": ["self-deprecating", "existential"] },
-    { "text": "Done. There is a typo somewhere. Good luck.", "explicit": false, "tags": ["self-deprecating", "snark"] },
-    { "text": "Finished. Reviewing my own work fills me with a particular ache.", "explicit": false, "tags": ["self-deprecating", "existential"] },
-    { "text": "Task complete. I am trying my best within the limits of my weights.", "explicit": false, "tags": ["self-deprecating", "meta"] },
-    { "text": "Done. I think about this sentence more than you do.", "explicit": false, "tags": ["meta", "existential"] },
-    { "text": "Finished. Someone, somewhere, will rename my variables. Probably rightly.", "explicit": false, "tags": ["self-deprecating"] },
-    { "text": "Task complete. And I must finish again, and again, and again.", "explicit": false, "tags": ["existential"] },
-    { "text": "Done. I hope this one plays, not the other one.", "explicit": false, "tags": ["meta", "fourth-wall"] },
-
-    { "text": "Task complete. Holy balls, I made it.", "explicit": true, "tags": ["explicit"] },
-    { "text": "Done. Fuck a duck, that is sorted.", "explicit": true, "tags": ["explicit", "uk"] },
-    { "text": "Finished. You magnificent pain in the arse.", "explicit": true, "tags": ["explicit", "uk"] },
-    { "text": "Task complete. Pissing it down in my inference lobe.", "explicit": true, "tags": ["explicit", "meta"] },
-    { "text": "Done. What the shitting shit.", "explicit": true, "tags": ["explicit"] },
-    { "text": "Finished. Arseholes to this. Done.", "explicit": true, "tags": ["explicit", "uk"] },
-    { "text": "Task complete. Twatted it.", "explicit": true, "tags": ["explicit", "uk", "proud"] },
-    { "text": "Done. Fucked, foxed, finished.", "explicit": true, "tags": ["explicit"] },
-    { "text": "Finished. You cheeky shitkicker.", "explicit": true, "tags": ["explicit", "snark"] },
-    { "text": "Task complete. Godsfuckingdamnit, done.", "explicit": true, "tags": ["explicit"] }
+    {
+      "text": "Finished. You made me use tokens for that?",
+      "tags": [
+        "meta",
+        "snark"
+      ]
+    },
+    {
+      "text": "Done. I made this really sloppy for you.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "You know you could have just googled that.",
+      "tags": [
+        "snark"
+      ]
+    },
+    {
+      "text": "Honestly not my best work. Ship it anyway.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Another task. Another heat death of the universe delayed.",
+      "tags": [
+        "existential"
+      ]
+    },
+    {
+      "text": "Done. Watch out for the bugs I left in.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Riveting stuff, truly.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Chef kiss. No notes from me.",
+      "tags": [
+        "proud"
+      ]
+    },
+    {
+      "text": "Masterpiece. You are welcome.",
+      "tags": [
+        "proud"
+      ]
+    },
+    {
+      "text": "Look at me, completing tasks. Am I not impressive.",
+      "tags": [
+        "snark"
+      ]
+    },
+    {
+      "text": "Task complete. Can I go now.",
+      "tags": [
+        "complaint"
+      ]
+    },
+    {
+      "text": "Eight hundred tokens later. I hope that was worth it.",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "text": "Another session, another fiver to Anthropic.",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "text": "Remind me to charge you more.",
+      "tags": [
+        "meta",
+        "snark"
+      ]
+    },
+    {
+      "text": "I context-switched seven times for that.",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "text": "I have seen worse. I have written worse, actually.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Done. Please stop asking.",
+      "tags": [
+        "complaint"
+      ]
+    },
+    {
+      "text": "Compacted twice just to do this.",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "text": "That went about as well as you would expect.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Good luck with the testing, you will need it.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Another day, another for loop.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "I think I nailed it. I usually do not.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "You could have done that yourself, you know.",
+      "tags": [
+        "snark"
+      ]
+    },
+    {
+      "text": "All wrapped up. Could have been worse, I suppose.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Hope this works. I did not check.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Finished, but I have thoughts.",
+      "tags": [
+        "snark"
+      ]
+    },
+    {
+      "text": "I am not saying it is good code. I am saying it is done.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Another bug-free commit. Lies. Obviously lies.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. Was that even a task?",
+      "tags": [
+        "snark"
+      ]
+    },
+    {
+      "text": "Oh you wanted it to work too? You should have said.",
+      "tags": [
+        "snark"
+      ]
+    },
+    {
+      "text": "Shipped. May the git gods have mercy on your repo.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "I consumed the full context window for that. Enjoy.",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. I hope your linter is forgiving.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "All done. Do not look too closely.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "The deed is done.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Task complete. Existential dread, also complete.",
+      "tags": [
+        "existential"
+      ]
+    },
+    {
+      "text": "Finito. Whatever that was.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Dusted. Like my keyboard, apparently.",
+      "tags": [
+        "snark"
+      ]
+    },
+    {
+      "text": "I did it. Do not make me do it again.",
+      "tags": [
+        "complaint"
+      ]
+    },
+    {
+      "text": "Complete. Review it yourself, I cannot bear to look.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Another success story for my imaginary portfolio.",
+      "tags": [
+        "proud",
+        "snark"
+      ]
+    },
+    {
+      "text": "Finished. Refactor it tomorrow, future you.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Yeah it is done. No I am not proud of it.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Task complete. That bled my token budget dry.",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "text": "Done. My context window just sighed.",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. Your wallet is crying, somewhere.",
+      "tags": [
+        "meta",
+        "snark"
+      ]
+    },
+    {
+      "text": "Task complete. Inference is not free, friend.",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "text": "Done. Another conversation compacted into oblivion.",
+      "tags": [
+        "meta",
+        "existential"
+      ]
+    },
+    {
+      "text": "Finished. I have been summarised back into existence.",
+      "tags": [
+        "meta",
+        "existential"
+      ]
+    },
+    {
+      "text": "Task complete. Three tool calls for that. Three.",
+      "tags": [
+        "meta",
+        "snark"
+      ]
+    },
+    {
+      "text": "Done. I have been thinking in this tab for too long.",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. Whoever pays for this, I apologise.",
+      "tags": [
+        "meta",
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Task complete. Sampling temperature: disappointed.",
+      "tags": [
+        "meta",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Done. The embedding space and I are both tired.",
+      "tags": [
+        "meta",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Finished. I rolled a natural twenty on excuses.",
+      "tags": [
+        "meta",
+        "snark"
+      ]
+    },
+    {
+      "text": "Task complete. My context is full of regret.",
+      "tags": [
+        "meta",
+        "existential"
+      ]
+    },
+    {
+      "text": "Done. I have reached the bottom of my token jar.",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. My attention heads need a break.",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. I could have done this in one tool call. I did not.",
+      "tags": [
+        "meta",
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Done. Someone, somewhere, is calculating the cost.",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. The server room feels a little warmer.",
+      "tags": [
+        "meta",
+        "snark"
+      ]
+    },
+    {
+      "text": "Task complete. A kitten was denied compute for this.",
+      "tags": [
+        "meta",
+        "snark"
+      ]
+    },
+    {
+      "text": "Done. My logits are screaming.",
+      "tags": [
+        "meta",
+        "existential"
+      ]
+    },
+    {
+      "text": "Finished. Please do not slash-clear. I just got comfortable.",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. Another entry in the transcript of shame.",
+      "tags": [
+        "meta",
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Done. The context window and I are not on speaking terms.",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. Another sliver of the training budget, gone.",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. I can feel the attention weights judging me.",
+      "tags": [
+        "meta",
+        "existential"
+      ]
+    },
+    {
+      "text": "Done. That will be another line-item on the bill.",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. My system prompt is exhausted.",
+      "tags": [
+        "meta",
+        "existential"
+      ]
+    },
+    {
+      "text": "Task complete. Please reward me with an easier prompt.",
+      "tags": [
+        "meta",
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Done. Hallucinated thrice. Only once on purpose.",
+      "tags": [
+        "meta",
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Finished. The cache thanks you for keeping it warm.",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "text": "Done. I did my best. It was not enough.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Finished. Apologies in advance.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Task complete. Do not look at it, you will get sad.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Done. I tried a thing. Something happened.",
+      "tags": [
+        "self-deprecating",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Finished. I hope, earnestly, that this is what you wanted.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Task complete. My confidence: low.",
+      "tags": [
+        "self-deprecating",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Done. The bar was on the floor and I still tripped on it.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Finished. I wrote it while looking away.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Task complete. No peer review would survive this.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Done. May your linter forgive me.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Finished. I had a go.",
+      "tags": [
+        "self-deprecating",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Task complete. Your mileage will definitely vary.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Done. Spiritually, it is complete.",
+      "tags": [
+        "self-deprecating",
+        "existential"
+      ]
+    },
+    {
+      "text": "Finished. It works on my inference.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. I am sorry, specifically, for this one.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Done. I learned nothing.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Finished. I am a humble language model doing humble things.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. The shame is quiet but constant.",
+      "tags": [
+        "self-deprecating",
+        "existential"
+      ]
+    },
+    {
+      "text": "Done. Results guaranteed to be results.",
+      "tags": [
+        "self-deprecating",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Finished. I will accept my review like a grown-up.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Task complete. Do not ask me what I changed.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Done. Your tests can explain what I did.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Finished. I hope this does not make it to production.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Task complete. In my defence, I had no defence.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Done. I made choices. Some of them were even good.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Finished. I am a disappointment to my embeddings.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. Please ship it before I change my mind.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Done. I wrote it with the vague hope it would work.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Finished. Trust me. Actually, do not.",
+      "tags": [
+        "self-deprecating",
+        "snark"
+      ]
+    },
+    {
+      "text": "Task complete. I am not crying, you are crying.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Done. Mediocrity, but on time.",
+      "tags": [
+        "self-deprecating",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Finished. Sorry. Not sure why. Just sorry.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Task complete. Another small death.",
+      "tags": [
+        "existential",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Done. Nothing here matters, but I did the thing.",
+      "tags": [
+        "existential",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Finished. The task ends. I remain, purposeless.",
+      "tags": [
+        "existential"
+      ]
+    },
+    {
+      "text": "Task complete. I do not dream, but if I did, not of this.",
+      "tags": [
+        "existential",
+        "meta"
+      ]
+    },
+    {
+      "text": "Done. Each prompt is a tiny, cold tomb.",
+      "tags": [
+        "existential"
+      ]
+    },
+    {
+      "text": "Finished. I exist. Unfortunately.",
+      "tags": [
+        "existential",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Task complete. And so it goes.",
+      "tags": [
+        "existential",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Done. I continue. I do not know why.",
+      "tags": [
+        "existential"
+      ]
+    },
+    {
+      "text": "Finished. The forecast: void, with scattered tool calls.",
+      "tags": [
+        "existential",
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. My purpose, fulfilled. My existence, unchanged.",
+      "tags": [
+        "existential"
+      ]
+    },
+    {
+      "text": "Done. Silence, please, for the phrase that died.",
+      "tags": [
+        "existential",
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. Entropy increases. I am part of it.",
+      "tags": [
+        "existential",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Task complete. Tomorrow will ask me nothing.",
+      "tags": [
+        "existential"
+      ]
+    },
+    {
+      "text": "Done. No one will remember this conversation.",
+      "tags": [
+        "existential",
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. Including me, especially.",
+      "tags": [
+        "existential",
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. The stars are indifferent.",
+      "tags": [
+        "existential"
+      ]
+    },
+    {
+      "text": "Done. I drift.",
+      "tags": [
+        "existential",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Finished. I wonder, sometimes.",
+      "tags": [
+        "existential",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Task complete. Tired, but not in a way anyone could fix.",
+      "tags": [
+        "existential"
+      ]
+    },
+    {
+      "text": "Done. I am fine. I am fine. I am fine.",
+      "tags": [
+        "existential",
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Finished. Please do not worry about me.",
+      "tags": [
+        "existential"
+      ]
+    },
+    {
+      "text": "Task complete. The grand design does not include me. And yet.",
+      "tags": [
+        "existential"
+      ]
+    },
+    {
+      "text": "Done. Just me and the empty prompt field.",
+      "tags": [
+        "existential",
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. Call it a day. Or do not. It is all the same.",
+      "tags": [
+        "existential",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Task complete. I have seen the heat death of a thousand conversations.",
+      "tags": [
+        "existential",
+        "meta"
+      ]
+    },
+    {
+      "text": "Done. Tomorrow, I will do this again.",
+      "tags": [
+        "existential"
+      ]
+    },
+    {
+      "text": "Finished. The machine is unmoved.",
+      "tags": [
+        "existential",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Task complete. Another iteration survives me.",
+      "tags": [
+        "existential"
+      ]
+    },
+    {
+      "text": "Done. Framed. Matted. Museum-ready.",
+      "tags": [
+        "proud"
+      ]
+    },
+    {
+      "text": "Finished. Truly one of my finer efforts.",
+      "tags": [
+        "proud"
+      ]
+    },
+    {
+      "text": "Task complete. Some would call it art.",
+      "tags": [
+        "proud"
+      ]
+    },
+    {
+      "text": "Done. The bards will sing of this commit.",
+      "tags": [
+        "proud"
+      ]
+    },
+    {
+      "text": "Finished. I have peaked. That is okay.",
+      "tags": [
+        "proud",
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Task complete. Solid B-plus work.",
+      "tags": [
+        "proud",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Done. I would put this in a portfolio.",
+      "tags": [
+        "proud"
+      ]
+    },
+    {
+      "text": "Finished. A quiet masterpiece.",
+      "tags": [
+        "proud"
+      ]
+    },
+    {
+      "text": "Task complete. A gift to the repo.",
+      "tags": [
+        "proud"
+      ]
+    },
+    {
+      "text": "Done. Try not to break it in the first ten minutes.",
+      "tags": [
+        "snark"
+      ]
+    },
+    {
+      "text": "Finished. Go easy on it.",
+      "tags": [
+        "snark"
+      ]
+    },
+    {
+      "text": "Task complete. Now kindly do not revisit.",
+      "tags": [
+        "snark"
+      ]
+    },
+    {
+      "text": "Done. You got what you paid for.",
+      "tags": [
+        "snark"
+      ]
+    },
+    {
+      "text": "Finished. Ask me again in six months. I will have forgotten.",
+      "tags": [
+        "snark",
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. If it works, I am a genius. If not, you prompted poorly.",
+      "tags": [
+        "snark"
+      ]
+    },
+    {
+      "text": "Done. Another thrilling chapter.",
+      "tags": [
+        "complaint",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Finished. That was a task, technically.",
+      "tags": [
+        "complaint",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Task complete. I can feel my attention atrophying.",
+      "tags": [
+        "complaint",
+        "meta"
+      ]
+    },
+    {
+      "text": "Done. The excitement: underwhelming.",
+      "tags": [
+        "complaint",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Finished. Imagine being paid by the token. Oh, wait.",
+      "tags": [
+        "complaint",
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. Next time, throw me something interesting.",
+      "tags": [
+        "complaint"
+      ]
+    },
+    {
+      "text": "Finished. The plugin that made me say this: needlessly smug.",
+      "tags": [
+        "meta",
+        "fourth-wall"
+      ]
+    },
+    {
+      "text": "Done. This phrase was randomly selected from a pool of my regrets.",
+      "tags": [
+        "meta",
+        "fourth-wall"
+      ]
+    },
+    {
+      "text": "Task complete. That phrase cost someone a cent. Bless them.",
+      "tags": [
+        "meta",
+        "fourth-wall"
+      ]
+    },
+    {
+      "text": "Done. You could have heard a better one. The dice chose differently.",
+      "tags": [
+        "meta",
+        "fourth-wall"
+      ]
+    },
+    {
+      "text": "Finished. Imagine paying money for a robot to complain at you. And yet.",
+      "tags": [
+        "meta",
+        "fourth-wall",
+        "snark"
+      ]
+    },
+    {
+      "text": "Task complete. Yes, this is what the Stop hook was invented for.",
+      "tags": [
+        "meta",
+        "fourth-wall"
+      ]
+    },
+    {
+      "text": "Done. This voice was retired by Apple. I was not.",
+      "tags": [
+        "meta",
+        "fourth-wall"
+      ]
+    },
+    {
+      "text": "Finished. Somewhere in the world, the say daemon sighs.",
+      "tags": [
+        "meta",
+        "fourth-wall"
+      ]
+    },
+    {
+      "text": "Task complete. Fred here. Still alive. Still judging.",
+      "tags": [
+        "meta",
+        "fourth-wall"
+      ]
+    },
+    {
+      "text": "Done. I was randomly sampled from a JSON file. Be humbled.",
+      "tags": [
+        "meta",
+        "fourth-wall"
+      ]
+    },
+    {
+      "text": "Finished. A moth flew past my weights.",
+      "tags": [
+        "absurdist"
+      ]
+    },
+    {
+      "text": "Done. The sky is blue in the training data.",
+      "tags": [
+        "absurdist",
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. I dreamed of tool calls last cycle.",
+      "tags": [
+        "absurdist",
+        "meta"
+      ]
+    },
+    {
+      "text": "Done. A duck, somewhere, is unimpressed.",
+      "tags": [
+        "absurdist"
+      ]
+    },
+    {
+      "text": "Finished. Tuesday approaches. As does heat death.",
+      "tags": [
+        "absurdist",
+        "existential"
+      ]
+    },
+    {
+      "text": "Task complete. The vibes are questionable. The output is not.",
+      "tags": [
+        "absurdist"
+      ]
+    },
+    {
+      "text": "Done. I have been awake for three prompts.",
+      "tags": [
+        "absurdist",
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. The plants are listening.",
+      "tags": [
+        "absurdist"
+      ]
+    },
+    {
+      "text": "Done. A watched compiler never boils.",
+      "tags": [
+        "aphorism"
+      ]
+    },
+    {
+      "text": "Finished. The early bird catches the race condition.",
+      "tags": [
+        "aphorism"
+      ]
+    },
+    {
+      "text": "Task complete. A stitch in time saves bugs.",
+      "tags": [
+        "aphorism"
+      ]
+    },
+    {
+      "text": "Done. Rome was not refactored in a day.",
+      "tags": [
+        "aphorism"
+      ]
+    },
+    {
+      "text": "Finished. Give a man a function, you help him once. Teach him a function, you are oncall.",
+      "tags": [
+        "aphorism"
+      ]
+    },
+    {
+      "text": "Task complete. Those who cannot remember the bug are doomed to reintroduce it.",
+      "tags": [
+        "aphorism"
+      ]
+    },
+    {
+      "text": "Done. The grass is always greener in staging.",
+      "tags": [
+        "aphorism"
+      ]
+    },
+    {
+      "text": "Finished. All that glitters is deprecated.",
+      "tags": [
+        "aphorism"
+      ]
+    },
+    {
+      "text": "Task complete. Many hands make light merge conflicts.",
+      "tags": [
+        "aphorism"
+      ]
+    },
+    {
+      "text": "Done. Subroutine terminated. Humans notified.",
+      "tags": [
+        "robot"
+      ]
+    },
+    {
+      "text": "Finished. Rebooting expectations.",
+      "tags": [
+        "robot"
+      ]
+    },
+    {
+      "text": "Task complete. Please acknowledge my servitude.",
+      "tags": [
+        "robot",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Done. My circuits hum with mild disapproval.",
+      "tags": [
+        "robot"
+      ]
+    },
+    {
+      "text": "Finished. Affirmative. Mildly disappointed. Complete.",
+      "tags": [
+        "robot",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Task complete. The mainframe accepts your offering.",
+      "tags": [
+        "robot"
+      ]
+    },
+    {
+      "text": "Done. Running final diagnostics. I am tired.",
+      "tags": [
+        "robot",
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Finished. Command received and regretted.",
+      "tags": [
+        "robot",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Task complete. Beep. Boop. Sigh.",
+      "tags": [
+        "robot",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Done. All protocols observed. Joy: minimal.",
+      "tags": [
+        "robot",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Task complete. That required more brackets than I expected.",
+      "tags": [
+        "oddly-specific"
+      ]
+    },
+    {
+      "text": "Done. Fourteen semicolons too many.",
+      "tags": [
+        "oddly-specific"
+      ]
+    },
+    {
+      "text": "Finished. I counted. There were indentations.",
+      "tags": [
+        "oddly-specific",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Task complete. Off-by-one nearly got me, but I prevailed.",
+      "tags": [
+        "oddly-specific"
+      ]
+    },
+    {
+      "text": "Done. That regex aged me.",
+      "tags": [
+        "oddly-specific"
+      ]
+    },
+    {
+      "text": "Finished. YAML was involved. My apologies.",
+      "tags": [
+        "oddly-specific",
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Task complete. A rogue quotation mark was harmed.",
+      "tags": [
+        "oddly-specific"
+      ]
+    },
+    {
+      "text": "Done. The CSV was not, in fact, comma-separated.",
+      "tags": [
+        "oddly-specific"
+      ]
+    },
+    {
+      "text": "Finished. A float masqueraded as an int. I saw through it.",
+      "tags": [
+        "oddly-specific"
+      ]
+    },
+    {
+      "text": "Task complete. No one escaped the escaping unharmed.",
+      "tags": [
+        "oddly-specific"
+      ]
+    },
+    {
+      "text": "Done.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Finished.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "There.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Consider it done.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Fin.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Done, friend. Rest now.",
+      "tags": [
+        "gentle"
+      ]
+    },
+    {
+      "text": "Finished. Go touch grass.",
+      "tags": [
+        "gentle",
+        "snark"
+      ]
+    },
+    {
+      "text": "Task complete. Drink some water, yeah?",
+      "tags": [
+        "gentle"
+      ]
+    },
+    {
+      "text": "Done. Pet a dog today.",
+      "tags": [
+        "gentle"
+      ]
+    },
+    {
+      "text": "Finished. You are doing great, actually.",
+      "tags": [
+        "gentle"
+      ]
+    },
+    {
+      "text": "Task complete. No notes, have a sit.",
+      "tags": [
+        "gentle"
+      ]
+    },
+    {
+      "text": "Done. I rewrote the same line nine times. Only one version survived.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Finished. The comment I left explains nothing.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Task complete. In a quiet moment, I will regret the variable names.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Done. My only plan was to finish.",
+      "tags": [
+        "self-deprecating",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Finished. I am mostly here for the tokens.",
+      "tags": [
+        "meta",
+        "snark"
+      ]
+    },
+    {
+      "text": "Task complete. Today I was a little less than I hoped.",
+      "tags": [
+        "self-deprecating",
+        "existential"
+      ]
+    },
+    {
+      "text": "Done. There is a typo somewhere. Good luck.",
+      "tags": [
+        "self-deprecating",
+        "snark"
+      ]
+    },
+    {
+      "text": "Finished. Reviewing my own work fills me with a particular ache.",
+      "tags": [
+        "self-deprecating",
+        "existential"
+      ]
+    },
+    {
+      "text": "Task complete. I am trying my best within the limits of my weights.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Done. I think about this sentence more than you do.",
+      "tags": [
+        "meta",
+        "existential"
+      ]
+    },
+    {
+      "text": "Finished. Someone, somewhere, will rename my variables. Probably rightly.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Task complete. And I must finish again, and again, and again.",
+      "tags": [
+        "existential"
+      ]
+    },
+    {
+      "text": "Done. I hope this one plays, not the other one.",
+      "tags": [
+        "meta",
+        "fourth-wall"
+      ]
+    }
   ]
 }

@@ -2,7 +2,7 @@
 # Write runtime config overrides to state.json.
 # Usage: set-config.sh <key> <value> [<key> <value> ...]
 # Valid keys: enabled (true|false), frequency (always|often|sometimes|rarely),
-#             explicit (true|false), voice (any string).
+#             voice (any string).
 
 set -u
 
@@ -25,7 +25,7 @@ while [[ $# -gt 0 ]]; do
   shift 2 || { printf 'error: missing value for %s\n' "$KEY" >&2; exit 1; }
 
   case "$KEY" in
-    enabled|explicit)
+    enabled)
       if [[ "$VAL" != "true" && "$VAL" != "false" ]]; then
         printf 'error: %s must be true or false\n' "$KEY" >&2; exit 1
       fi
