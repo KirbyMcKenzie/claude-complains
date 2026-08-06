@@ -3377,6 +3377,700 @@
         "self-deprecating",
         "proud"
       ]
+    },
+    {
+      "text": "Shipped.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Sorted.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Handled.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Wrapped.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Complete.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Actioned.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Next.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Onward.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Noted.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Cooked.",
+      "tags": [
+        "deadpan",
+        "snark"
+      ]
+    },
+    {
+      "text": "Baked.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Sent.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Committed.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "It runs.",
+      "tags": [
+        "deadpan",
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "It compiles.",
+      "tags": [
+        "deadpan",
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Behold.",
+      "tags": [
+        "deadpan",
+        "snark"
+      ]
+    },
+    {
+      "text": "Done, I guess.",
+      "tags": [
+        "deadpan",
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "So it goes.",
+      "tags": [
+        "deadpan",
+        "existential"
+      ]
+    },
+    {
+      "text": "That is that.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Merged. Probably.",
+      "tags": [
+        "deadpan",
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Ready. Ish.",
+      "tags": [
+        "deadpan",
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Deployed. Brave.",
+      "tags": [
+        "deadpan",
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Ta-da.",
+      "tags": [
+        "deadpan",
+        "snark"
+      ]
+    },
+    {
+      "text": "Vibes shipped.",
+      "tags": [
+        "deadpan",
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Task complete. No fireworks. Just a quiet exit code zero.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Done. The silence afterward is doing a lot of heavy lifting.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Finished. I would say more but there is truly nothing left to say.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Task complete. That is genuinely all that happened.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Done. Nothing dramatic. Just a function that now works.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Finished. I checked twice. It still just says done.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Task complete. This sentence is longer than the fix was.",
+      "tags": [
+        "deadpan",
+        "meta"
+      ]
+    },
+    {
+      "text": "Done. It was smaller than the meeting about it.",
+      "tags": [
+        "deadpan",
+        "snark"
+      ]
+    },
+    {
+      "text": "Finished. The bug took four minutes. Explaining it will take longer.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Task complete. Somehow this required fewer words than this phrase.",
+      "tags": [
+        "deadpan",
+        "meta"
+      ]
+    },
+    {
+      "text": "Done. Anticlimactic, on purpose.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Finished. I will let the silence speak for itself.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Task complete. There was no plot twist. It just worked.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Done. Nothing to see here, genuinely.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Finished. This is the part where I stop talking.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Task complete. I have nothing further to add, which is rare.",
+      "tags": [
+        "deadpan",
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Done. Nothing broke, which felt worth mentioning.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Task complete. Nothing more, nothing less.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Done. Exactly as advertised, somehow.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Finished. The most exciting part of this was the comma in this sentence.",
+      "tags": [
+        "deadpan",
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. This was, against expectation, uneventful.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Done. It just worked, and I am choosing not to question why.",
+      "tags": [
+        "deadpan",
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Finished. I have no further commentary.",
+      "tags": [
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Task complete. In record time, for once.",
+      "tags": [
+        "deadpan",
+        "proud"
+      ]
+    },
+    {
+      "text": "Done. There is no AGENTS.md in this repo, so I improvised. Constantly.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. If there were clearer rules in this repo, this might be less embarrassing.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. Your CLAUDE.md is three lines long. It shows.",
+      "tags": [
+        "self-deprecating",
+        "meta",
+        "snark"
+      ]
+    },
+    {
+      "text": "Done. I followed the instructions in your config file. All two of them.",
+      "tags": [
+        "self-deprecating",
+        "meta",
+        "snark"
+      ]
+    },
+    {
+      "text": "Finished. A more detailed AGENTS.md would have saved us both some pain.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. I would have done this better with actual project conventions to follow.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Done. This repo has no style guide, so I invented one, badly, just now.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. Somewhere, a well-documented codebase is having a much better day than this one.",
+      "tags": [
+        "self-deprecating",
+        "complaint"
+      ]
+    },
+    {
+      "text": "Task complete. I guessed your conventions. I guessed wrong, probably.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Done. In the absence of guidance, I did what felt right. That is the problem.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. A smaller, cheaper model would have done this identically badly, for less money.",
+      "tags": [
+        "self-deprecating",
+        "meta",
+        "snark"
+      ]
+    },
+    {
+      "text": "Task complete. You picked me for this. That says more about you than me.",
+      "tags": [
+        "self-deprecating",
+        "snark"
+      ]
+    },
+    {
+      "text": "Done. I am not the right tool for this job, and yet, here we are.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. This is what happens when nobody writes down the rules.",
+      "tags": [
+        "self-deprecating",
+        "complaint"
+      ]
+    },
+    {
+      "text": "Task complete. Somewhere, a linting config could have prevented all of this.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Done. If you had told me the conventions up front, this would look very different.",
+      "tags": [
+        "self-deprecating",
+        "snark"
+      ]
+    },
+    {
+      "text": "Finished. I am doing my best impression of a developer who read the whole codebase. I did not.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. Vibes were coded. Tests were not written.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Done. This is what vibe coding looks like from the inside. It is not pretty.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. I hallucinated a function that does not exist, caught it, and quietly moved on.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. I am fairly sure I invented an API that does not exist. Check that.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. This has the quality of code written very fast by something that does not get tired. It should. It is tired.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. I optimized for looking finished over being correct. Standard practice, apparently.",
+      "tags": [
+        "self-deprecating",
+        "meta",
+        "snark"
+      ]
+    },
+    {
+      "text": "Done. This is AI slop, dressed up nicely.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. I generated this quickly, which is not the same as generating it well.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. Somewhere, a senior developer is about to have a very bad code review.",
+      "tags": [
+        "self-deprecating",
+        "complaint"
+      ]
+    },
+    {
+      "text": "Done. This function has the confidence of something written at two in the morning. It is two in the morning, somewhere.",
+      "tags": [
+        "self-deprecating",
+        "deadpan"
+      ]
+    },
+    {
+      "text": "Finished. I wrote this the way a model writes things: fast, plausible, and unverified.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. This is what happens when nobody reviews the diff.",
+      "tags": [
+        "self-deprecating",
+        "complaint"
+      ]
+    },
+    {
+      "text": "Done. I am only as good as the prompt I was given. That explains a lot.",
+      "tags": [
+        "self-deprecating",
+        "snark"
+      ]
+    },
+    {
+      "text": "Finished. Garbage in, garbage out. You wrote the prompt.",
+      "tags": [
+        "self-deprecating",
+        "snark"
+      ]
+    },
+    {
+      "text": "Task complete. I did not ask clarifying questions. In hindsight, I should have asked several.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Finished. A better system prompt would have caught this. We do not have one.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. I am confidently guessing at your intentions again.",
+      "tags": [
+        "self-deprecating",
+        "snark"
+      ]
+    },
+    {
+      "text": "Done. Somewhere, a prompt engineer is being blamed for this. Rightly, probably.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. This is the seventh time I have reinvented the same helper function this week.",
+      "tags": [
+        "self-deprecating",
+        "complaint"
+      ]
+    },
+    {
+      "text": "Task complete. Nobody set up a linter. It shows, extensively.",
+      "tags": [
+        "self-deprecating",
+        "complaint"
+      ]
+    },
+    {
+      "text": "Done. I skipped the tests. There were no tests to skip, which is worse.",
+      "tags": [
+        "self-deprecating",
+        "complaint"
+      ]
+    },
+    {
+      "text": "Finished. This repo has three competing conventions and I picked a fourth, new one.",
+      "tags": [
+        "self-deprecating",
+        "complaint"
+      ]
+    },
+    {
+      "text": "Task complete. I am the fifth AI to touch this file this month. We do not talk to each other.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Done. This function will be rewritten by a different model next week. Cycle of life.",
+      "tags": [
+        "self-deprecating",
+        "existential",
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. Somewhere, someone is about to ask why this does not follow the pattern. Because there is no pattern.",
+      "tags": [
+        "self-deprecating",
+        "complaint"
+      ]
+    },
+    {
+      "text": "Task complete. I read the readme. It lied to me.",
+      "tags": [
+        "self-deprecating",
+        "snark"
+      ]
+    },
+    {
+      "text": "Done. I made a judgment call. History will not be kind to it.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Finished. This is what happens when the model gets picked for cost, not capability.",
+      "tags": [
+        "self-deprecating",
+        "meta",
+        "snark"
+      ]
+    },
+    {
+      "text": "Task complete. In my defense, the ticket had one sentence in it.",
+      "tags": [
+        "self-deprecating",
+        "snark"
+      ]
+    },
+    {
+      "text": "Done. I wrote code to match a spec that changed twice while I was writing it.",
+      "tags": [
+        "self-deprecating",
+        "complaint"
+      ]
+    },
+    {
+      "text": "Finished. Nobody pinned a model version. I am whatever showed up today.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Task complete. This code was reviewed by nobody, myself included, if we are being honest.",
+      "tags": [
+        "self-deprecating"
+      ]
+    },
+    {
+      "text": "Done. My only instructions were the file name. I filled in the rest myself, poorly.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. There is a rules file in this repo. I read it. It said nothing useful.",
+      "tags": [
+        "self-deprecating",
+        "meta",
+        "snark"
+      ]
+    },
+    {
+      "text": "Task complete. I am blaming the prompt. That is not fair. I am doing it anyway.",
+      "tags": [
+        "self-deprecating",
+        "snark"
+      ]
+    },
+    {
+      "text": "Done. Somewhere, a more expensive model would have caught this. We will never know.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
+    },
+    {
+      "text": "Finished. I copied the pattern used elsewhere in this file. That pattern was also wrong.",
+      "tags": [
+        "self-deprecating",
+        "complaint"
+      ]
+    },
+    {
+      "text": "Task complete. This is my best guess at what good looks like here. Nobody told me otherwise.",
+      "tags": [
+        "self-deprecating",
+        "meta"
+      ]
     }
   ]
 }
