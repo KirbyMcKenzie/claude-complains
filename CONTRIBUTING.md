@@ -23,6 +23,7 @@ Good lanes:
 5. **General appeal, not regional slang.** Phrases should read naturally to most English speakers — avoid idioms or dialect that only land in one country.
 6. **Tag it.** Use tags from this list (add new ones sparingly):
    - `meta`, `snark`, `self-deprecating`, `complaint`, `proud`, `deadpan`, `existential`
+   - `aphorism`, `absurdist`, `robot`, `oddly-specific`, `gentle`, `fourth-wall`
    - `custom` is reserved for user-added phrases — don't use in the shipped file.
 
 ## Entry format
