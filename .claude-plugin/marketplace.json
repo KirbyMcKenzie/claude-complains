@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Marketplace hosting the claude-complains plugin.",
-    "version": "0.1.5"
+    "version": "0.1.6"
   },
   "plugins": [
     {
@@ -16,7 +16,7 @@
         "path": "plugin"
       },
       "description": "Claude complains in a robot voice every time it finishes a task.",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "author": {
         "name": "Kirby McKenzie"
       },
