@@ -58,8 +58,9 @@ Run `say -v "?"` in your terminal to see the full list.
 
 ## How it works
 
-- `hooks/hooks.json` wires a `Stop` hook to `scripts/complain.sh` (async, 5s timeout)
+- `hooks/hooks.json` wires a `Stop` hook to `scripts/complain.sh` (5s timeout)
 - On every Claude `Stop`, the script checks enabled + rolls the frequency dice, picks a phrase from `data/phrases.json`, merges any custom phrases, and plays it through `say -v <voice>` detached
+- The phrase also shows up as a small "🤖 <phrase>" line in the transcript after Claude's response — the `say` playback itself stays detached, so this doesn't delay or block anything
 - Off-platform (Linux/Windows) or missing `jq`/`say`: silent exit 0
 
 ## Contributing phrases

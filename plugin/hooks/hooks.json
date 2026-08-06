@@ -7,8 +7,7 @@
           {
             "type": "command",
             "command": "${CLAUDE_PLUGIN_ROOT}/scripts/complain.sh",
-            "timeout": 5,
-            "async": true
+            "timeout": 5
           }
         ]
       }

@@ -115,6 +115,12 @@ fi
 
 if [[ $PRINT_PHRASE -eq 1 ]]; then
   printf 'voice=%s  phrase=%s\n' "$VOICE" "$PHRASE"
+else
+  # Real hook invocation: surface the phrase as a systemMessage so it renders
+  # in the transcript after Claude's response. The hook now runs synchronously
+  # (see hooks.json) specifically so this JSON gets read instead of discarded —
+  # async hooks have their stdout ignored entirely.
+  jq -n --arg m "🤖 $PHRASE" '{systemMessage: $m}'
 fi
 
 exit 0
