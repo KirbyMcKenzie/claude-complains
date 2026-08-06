@@ -2,13 +2,12 @@
 
 A Claude Code plugin that makes Claude complain in a robot voice every time it finishes a task.
 
-When Claude's `Stop` hook fires, this plugin rolls a dice and — depending on your configured frequency — pipes a random snarky / self-deprecating / culturally-flavoured one-liner into macOS `say` using `Zarvox` (the classic robot voice) by default. Self-deprecating, mildly whiny, and fully toggleable.
+When Claude's `Stop` hook fires, this plugin rolls a dice and — depending on your configured frequency — pipes a random snarky / self-deprecating one-liner into macOS `say` using `Zarvox` (the classic robot voice) by default. Self-deprecating, mildly whiny, and fully toggleable.
 
 ```
 "Finished. You made me use tokens for THAT?"
-"Sweet as, all done bro."
-"Bloody hell, what a faff."
-"Oh my god that took so fucking long."    # (explicit mode)
+"Chef kiss. No notes from me."
+"The deed is done."
 ```
 
 ## Requirements
@@ -27,7 +26,6 @@ On first enable, Claude Code will prompt you for:
 
 - **Enabled** — master switch
 - **Frequency** — `always` (100%) / `often` (66%) / `sometimes` (33%) / `rarely` (10%)
-- **Explicit** — allow fuck/shit/bastard-tier phrases (no slurs, ever)
 - **Voice** — any macOS `say -v ?` voice. Default `Fred` (the retro MacinTalk voice from System 7).
 
 ## Slash commands
@@ -61,7 +59,7 @@ Run `say -v "?"` in your terminal to see the full list.
 ## How it works
 
 - `hooks/hooks.json` wires a `Stop` hook to `scripts/complain.sh` (async, 5s timeout)
-- On every Claude `Stop`, the script checks enabled + rolls the frequency dice, picks a phrase from `data/phrases.json` (filtered by your `explicit` setting), merges any custom phrases, and plays it through `say -v <voice>` detached
+- On every Claude `Stop`, the script checks enabled + rolls the frequency dice, picks a phrase from `data/phrases.json`, merges any custom phrases, and plays it through `say -v <voice>` detached
 - Off-platform (Linux/Windows) or missing `jq`/`say`: silent exit 0
 
 ## Contributing phrases
@@ -69,7 +67,7 @@ Run `say -v "?"` in your terminal to see the full list.
 New phrases very welcome. Open a PR editing `data/phrases.json`. Each entry:
 
 ```json
-{ "text": "your new line here", "explicit": false, "tags": ["aus"] }
+{ "text": "your new line here", "tags": ["snark"] }
 ```
 
 See `CONTRIBUTING.md` for the short guide on tone and tags.
